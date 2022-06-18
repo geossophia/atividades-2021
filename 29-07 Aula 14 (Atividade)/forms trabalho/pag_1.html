@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aulas</title>
+    <link rel="stylesheet" href="pag_1.css">
+</head>
+<body>
+    <main>
+        <section>
+            <article>
+                    <img src="fotos\alunos.jpg" alt="alunos estudando">
+                    <h1>Horário das aulas</h1>
+                    <h2>Registro</h2>
+                    <form action="tabela.html">
+                        <div id="a1">
+                            <label for="fname" id="nome">Nome completo</label><br>
+                        </div>
+                        <div id="a2">
+                            <input type="text" id="nomec" name="name" required><br>
+                        </div>
+                        <div id="a3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div id="a4">
+                        <input type="email" id="email" name="email" required>
+                        </div>
+                        <div id="a5">
+                            <label for="birthday">Aniversário</label>
+                        </div>
+                        <div id="a6">
+                            <input type="date" id="ani" name="birthday" required>
+                        </div>
+                        <div id="a7"> 
+                            <label for="phone">Telefone</label><br><br>
+                        </div>
+                        <div id="a8">
+                            <input type="tel" id="phone" name="phone" placeholder="(00) 90000-0000" pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" required ><br><br>
+                        </div>
+                        <div id="a9"> 
+                        <label for="phone">RG</label><br><br>
+                        </div>
+                        <div id="a10">
+                            <input type="tel" id="rg" name="phone" placeholder="00.000.000-0" pattern="[0-9]{2}.[0-9]{3}.[0-9]{3}-[0-9]{1}" required ><br><br>
+                        </div>
+                        <div id="a11"> 
+                            <label for="phone">CEP</label><br><br>
+                        </div>
+                        <div id="a12">
+                            <input type="tel" id="cep" name="phone" placeholder="00000-000" pattern="[0-9]{5}-[0-9]{3}" required ><br><br>
+                        </div>
+                        <div id="a13">
+                              <input type="radio" id="tarde" name="fav_language" value="Tarde" required>
+                        </div>
+                        <div id="a14">
+                              <label for="tarde">Tarde</label><br>
+                        </div>      
+                        <div id="a15">
+                            <input type="radio" id="manha" name="fav_language" value="Manhã" required>
+                        </div>      
+                        <div id="a16">      
+                            <label for="manha">Manhã</label><br>
+                        </div>      
+                        <div id="a17">
+                            <input type="radio" id="noite" name="fav_language" value="Noite" required>
+                        </div>
+                        <div id="a18">      
+                            <label for="noite">Noite</label><br><br>
+                        </div>
+                        <div id="a19">
+                        <input type="submit" value="Submit">
+                    </form>
+            </article>
+        </section>
+    </main>
+</body>
+</html>

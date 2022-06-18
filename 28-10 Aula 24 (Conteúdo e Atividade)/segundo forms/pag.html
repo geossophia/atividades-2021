@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="pag1.css" media="all">
+</head>
+<body>
+    <h1>Entre em contato</h1>
+    <form name="meu_form"> 
+        <div id="pr">
+            <div id="um">
+                <label for="nome">Nome</label>
+            </div>
+            <div id="dois">
+                <input type="text" id="nomeid" placeholder="Nome completo" required="required" name="nome" />
+            </div>
+            <div id="tres">   
+                <label for="fone">Fone</label>
+            </div>
+            <div id="quatro">
+                <input type="tel" id="foneid" placeholder="(00)900000000" name="fone" />
+            </div>
+            <div id="cinco">
+                <label for="email">Email</label>
+            </div>
+            <div id="seis">
+                <input type="email" id="emailid" placeholder="seuemail@mail.com" name="email" />
+            </div>
+            <div id="sete">
+                <textarea id="op" placeholder="Deixe sua opnião"></textarea>
+            </div>
+        </div>
+        <div id="enviar">
+            <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+        </div>
+    </form>
+    <script>
+        function Enviar() {
+            var nome = document.getElementById("nomeid");
+            if (nome.value != "") {
+                alert('Obrigado sr(a) ' + nome.value + ', os seus dados foram encaminhados com sucesso');
+            }   
+        }
+    </script>          
+</body>
+</html>

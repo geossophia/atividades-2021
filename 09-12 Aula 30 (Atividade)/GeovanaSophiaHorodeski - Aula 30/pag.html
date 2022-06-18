@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="valor">Valor:</label>
+    <input type="number" id="valor">
+    <br>
+    <input type="button" value="Dobro" id="btndobro">
+    <div id="resultadod"></div>
+    <input type="button" value="Triplo" id="btntriplo">
+    <div id="resultadot"></div>
+    <script>
+        document.getElementById('btndobro').addEventListener('click', caldobro)
+        function caldobro() {
+            var valor = document.getElementById('valor').value;
+            var Dobro = valor * 2;
+            document.getElementById('resultadod').innerHTML = 'DOBRO: <strong> '+Dobro+'</strong>';
+        }
+        document.getElementById('btntriplo').addEventListener('click', caltripo)
+        function caltripo() {
+            var valor = document.getElementById('valor').value;
+            var Triplo = valor * 3;
+            document.getElementById('resultadot').innerHTML = 'TRIPO: <strong> '+Triplo+'</strong>';
+        }
+        
+    </script>
+</body>
+</html>

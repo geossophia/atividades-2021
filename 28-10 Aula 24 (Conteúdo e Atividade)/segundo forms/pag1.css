@@ -1,0 +1,94 @@
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: rgb(57, 223, 223);
+    background-color: rgb(255, 255, 255);
+    width: 864px;
+    height: 569px;
+    align-self: center;
+    padding: 16px 0px 0px 68px;
+    margin: 58px 0px 0px 211px;
+    border-radius: 24px 24px 24px 24px;
+}
+body{
+    background-color: rgb(57, 223, 223);
+}
+#nomeid{
+    width: 301%;
+    padding: 17px 15px;
+    background-color: white;
+    font-size: 19px;
+}
+#um, #tres, #cinco{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 34px;
+}
+#dois, #quatro, #seis, #sete{
+    font-size: 53px;
+    margin-right: 828px;
+
+}
+#um{
+    margin-top: -525px;
+    margin-right: 974px;
+    float: right;
+}
+#dois{
+    margin-top: -494px;
+    float: right;
+}
+#tres{
+    margin-top: -417px;
+    margin-right: 987px;
+    float: right;
+}
+#quatro{
+    margin-top: -384px;
+    float: right;
+}
+#foneid{
+    width: 301%;
+    padding: 17px 15px;
+    background-color: white;
+    font-size: 19px;
+}
+#cinco{
+    margin-top: -309px;
+    margin-right: 977px;
+    float: right;
+}
+#seis{
+    margin-top: -277px;
+    float: right;
+}
+#emailid{
+    width: 301%;
+    padding: 17px 15px;
+    background-color: white;
+    font-size: 19px;
+}
+#sete{
+    margin-top: -189px;
+    float: right;
+}
+#op{
+    width: 295%;
+    padding: 28px 24px;
+    background-color: white;
+    font-size: 19px;
+}
+input[type=submit]{
+    width: 42%;
+    padding: 9px 0px;
+    color: white;
+    background-color: rgb(57, 223, 223);
+    cursor: pointer;
+    font-size: 22px;
+}
+#enviar{
+    margin: -120px 0px 0px 462px;
+}
+#pr{
+    margin: 0px 0px 51px 0px; 
+    padding: 0px 0px 1px 0px;
+}

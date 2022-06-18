@@ -1,0 +1,65 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap');
+
+body{
+    background-color:white;
+    font-family: 'STIX Two Text', serif;
+}
+h1{
+    margin: 120px 0px 78px 25%;
+    padding: 29px 0px 0px 0px;
+    width: 650px;
+    height: 364px;
+    background-color: #025446;
+    border-radius: 10px 10px 10px 10px;
+    float: none;
+    text-align: center;
+    color: white;
+}
+p{
+    margin: -427px 663px 0px 0px;
+    padding: 29px 0px 0px 0px;
+    width: 324px;
+    height: 0px;
+    font-size: 25px;
+    float: right;
+    text-align: justify;
+    color: white; 
+}
+#seg{
+    margin: -338px 663px 0px 0px;
+    padding: 29px 0px 0px 0px;
+    width: 324px;
+    height: 0px;
+    font-size: 25px;
+    float: right;
+    text-align: justify;
+    color: white; 
+}
+img{
+    height: 318px;
+    width: 250px;
+    margin: -438px 0px 102px 712px;
+    border-radius: 6px 6px 6px 6px;
+}
+h2{
+    margin: -222px 0px 78px 15%;
+    padding: 29px 0px 0px 0px;
+    width: 650px;
+    height: 364px;
+    float: none;
+    text-align: center;
+    color: white;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: white;
+}
+a:hover{
+    color: white;
+}
+a:active{
+    color: white;
+}

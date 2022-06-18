@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imc</title>
+</head>
+<body>
+    <script>
+        var nome = prompt("Informe seu nome");
+        var peso = prompt("Informe o peso");
+        var altura = prompt("Informe a altura");
+        var imc = peso / (altura * altura);
+        if (imc < 14.5){
+            document.write("Olá ", nome, ", seu imc é ", imc, ", desnutrição.")
+        }else if (imc >= 14.5 && imc < 20){
+            document.write("Olá ", nome, ", seu imc é ", imc, ", peso abaixo do normal.")
+        }else if (imc >= 20 && imc < 25){
+            document.write("Olá ", nome, ", seu imc é ", imc, ", peso normal.")
+        }else if (imc >= 25 && imc < 30){
+            document.write("Olá ", nome, ", seu imc é ", imc, ", sobrepeso.")
+        }else if (imc >= 30 && imc < 40){
+            document.write("Olá ", nome, ", seu imc é ", imc, ", obesidade.")
+        }else if (imc >= 40){
+            document.write("Olá ", nome, ", seu imc é ", imc, ", obesidade mórbida.")
+        }
+    </script>
+</body>
+</html>

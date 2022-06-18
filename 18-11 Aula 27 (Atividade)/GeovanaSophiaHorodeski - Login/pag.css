@@ -1,0 +1,22 @@
+body,html{
+    height: 100%; 
+    overflow: hidden;
+}
+  
+.l-form{
+    background-color:rgb(255, 255, 255);
+    border-radius:12px;
+    padding: 12px;
+    border-radius: 5px;
+    transform: translate(0,0);
+    transition: all .3s ease-in-out;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 50%); 
+}
+h1{
+    color: rgb(52 58 64);
+}
+.i-form{
+    border-radius:12px;
+    padding: 12px;
+    border-radius: 5px;
+}
